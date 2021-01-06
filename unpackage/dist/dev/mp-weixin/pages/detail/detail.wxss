@@ -1,0 +1,16 @@
+
+.goods-nav {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 1rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+

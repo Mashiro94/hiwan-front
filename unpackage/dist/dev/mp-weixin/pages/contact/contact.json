@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "好友",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-chat": "/components/uni-list-chat/uni-list-chat"
+  }
+}

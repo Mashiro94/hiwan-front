@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "最新",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

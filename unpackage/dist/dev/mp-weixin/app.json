@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/latest/latest",
+    "pages/search/search",
+    "pages/contact/contact",
+    "pages/center/center",
+    "pages/login/login",
+    "pages/detail/detail",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "嗨玩",
+    "navigationBarBackgroundColor": "#FF80AB",
+    "backgroundColor": "#EFEFEF"
+  },
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#FF80AB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/latest/latest",
+        "iconPath": "static/tagbar/hot-0.png",
+        "selectedIconPath": "static/tagbar/hot-1.png",
+        "text": "最新"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/tagbar/tag-0.png",
+        "selectedIconPath": "static/tagbar/tag-1.png",
+        "text": "查找"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/tagbar/center-0.png",
+        "selectedIconPath": "static/tagbar/center-1.png",
+        "text": "好友"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tagbar/index-0.png",
+        "selectedIconPath": "static/tagbar/index-1.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
