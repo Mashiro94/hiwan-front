@@ -1,15 +1,11 @@
 <template>
-	<form class='loginView' @submit="login">
+	<form class="loginView" @submit="login">
 		<view class="input-view">
-			<view class="label-view">
-				<text class="label">账号 </text>
-			</view>
+			<view class="label-view"><text class="label">账号</text></view>
 			<input class="input" type="text" placeholder="请输入用户名" name="nameValue" />
 		</view>
 		<view class="input-view">
-			<view class="label-view">
-				<text class="label">密码</text>
-			</view>
+			<view class="label-view"><text class="label">密码</text></view>
 			<input class="input" type="password" placeholder="请输入密码" name="passwordValue" />
 		</view>
 		<view class="button-view">
@@ -20,19 +16,19 @@
 </template>
 
 <script>
-	export default {
-		data() {
-			return {};
+export default {
+	data() {
+		return {};
+	},
+	methods: {
+		login(e) {
+			console.log('得到账号:' + e.detail.value.nameValue + ';得到密码:' + e.detail.value.passwordValue);
 		},
-		methods: {
-			login(e) {
-				console.log("得到账号:"+ e.detail.value.nameValue + ';得到密码:' + e.detail.value.passwordValue)
-			},
-			register() {
-				console.log("前往注册页面")
-			}
+		register() {
+			console.log('前往注册页面');
 		}
 	}
+};
 </script>
 
 <style>
@@ -41,7 +37,7 @@
 	flex: 1;
 	flex-direction: column;
 	width: 750upx;
-    min-height: 100vh;
+	min-height: 100vh;
 	padding-top: 30upx;
 }
 
@@ -95,15 +91,15 @@ button {
 }
 
 button.login {
-	background-color: #FF80AB;
+	background-color: #ff80ab;
 	color: #fff;
 }
 
 button.register {
 	margin-top: 30upx;
-	color: #FF80AB;
+	color: #ff80ab;
 	background-color: #fff;
-	border-color: #FF80AB;
+	border-color: #ff80ab;
 	border-width: 2upx;
 }
 
